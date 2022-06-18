@@ -1,0 +1,8 @@
+Compiling
+gcc <files> -lasound
+
+dev
+MIDI device will show up in /dev/snd/midi***
+
+to connect
+change the sound dev in the source code to have the number after "hw" match the number of the MIDI device in /dev/snd
